@@ -37,3 +37,13 @@ p {
     font-size: 20px;
     font-weight: 600;
 }
+
+/*
+==========================================
+Hero
+==========================================
+*/
+
+.jumbotron-fluid {
+    background-image: url ("images/hero.jpg");
+}
