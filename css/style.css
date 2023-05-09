@@ -45,8 +45,9 @@ Hero
 */
 
 .container {
-    background-image: url ("hero.jpg");
+    background-image: url("../images/hero.jpg");
     size: cover;
     background-position: center;
     opacity: 27%;
+
 }
