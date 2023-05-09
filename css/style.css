@@ -83,11 +83,16 @@ Section 1
 ==========================================
 */
 
+.transform {
+    text-align: center;
+    padding: 60px;
+}
+
 .intro {
     display: flex;
     justify-content:space-between;
     margin: auto;
-    margin: 60px 80px 60px 80px;
+    margin: 60px 100px 60px 100px;
 }
 
 .icon-card h3 {
@@ -105,21 +110,30 @@ Section 2
 
 
 
-
-.container {
+.container-fluid {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+
   }
   
-.container  img {
+.container-fluid  img {
     max-width: 100%;
     height: auto;
-    margin-right: 1rem;
+    padding: 0px 20px;
     border-radius: 15px;
+    
   }
   
-  p {
-    flex: 1;
-    margin: 0;
-  }
+.card-text {
+    width: 580px;
+    padding: 0px 20px;
+}
+
+.card-text-right {
+    width: 580px;
+    padding: 0px 20px;
+    text-align: right;
+}
