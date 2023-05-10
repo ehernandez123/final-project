@@ -1,54 +1,229 @@
-
-
 /*
 ==========================================
 typography
 ==========================================
 */
 
-
-
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 60px;
     font-weight: 600;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h2 {
+    font-family: "Open Sans", sans-serif;
     font-size: 36px;
     font-weight: 600;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h3 {
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 600;
-}
-
-h4 {
-    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h4 {
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 600;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
+  }
+  
+  p {
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 600;
-}
-
-/*
-==========================================
-Hero
-==========================================
-*/
-
-.container {
-    background-image: url("../images/hero.jpg");
+  }
+  
+  /*
+  ==========================================
+  Hero
+  ==========================================
+  */
+  
+  .jumbotron {
+    background-image: url("../images/hero3.jpg");
     background-size: cover;
-    size: cover;
     background-position: center;
-    opacity: 27%;
-
-}
+    overflow: hidden;
+    opacity: 85%;
+    margin-top: 100px;
+  }
+  
+  .hero-headline {
+    padding: 120px 166px 40px;
+  }
+  
+  .jumbotron h1 {
+    color: white;
+  }
+  
+  .jumbotron h3 {
+    color: white;
+    padding: 0px 900px 0px 166px;
+  }
+  
+  .jumbotron a {
+    margin: 40px 0px 300px 166px;
+    padding: 15px 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /*
+  ==========================================
+  Section 1
+  ==========================================
+  */
+  
+  .transform {
+    text-align: center;
+    padding: 60px 60px 0px 60px;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 100px 80px;
+    padding: 0px 125px;
+  }
+  
+  .icon-card h3 {
+    max-width: 307px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /*
+  ==========================================
+  Section 2
+  ==========================================
+  */
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  
+  .container-fluid img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    border-radius: 20px;
+    width: 580px;
+    height: 320px;
+  }
+  
+  .card-text {
+    width: 580px;
+    padding: 0px 20px;
+  }
+  
+  .card-text-right {
+    width: 580px;
+    padding: 0px 20px;
+    text-align: right;
+  }
+  .icon-card-img {
+    width: 580px;
+    height: 320px;
+  }
+  
+  .secondary-cta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .divider {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .follow-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: Arial, sans-serif;
+    padding-bottom: 60px;
+  }
+  
+  .follow-us p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon {
+    color: grey;
+    text-decoration: none;
+    font-size: 1.5rem; /* Increase the size of the icons */
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: black;
+  }
+  
+  /*
+  ==========================================
+  Section 3
+  ==========================================
+  */
+  .grey-section {
+    background-color: lightgrey;
+    padding: 2rem;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .main-header {
+    margin-bottom: 2rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .column {
+    flex: 1;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  
+  .column img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .column h2 {
+    font-weight: bold;
+  }
+  
+  .other-services {
+    display: flex;
+  }
+  
+  .footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
