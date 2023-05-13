@@ -109,10 +109,11 @@ h1 {
   .container-fluid img {
     max-width: 100%;
     height: auto;
-    padding: 0px 20px;
+    padding: 0px 0px;
     border-radius: 20px;
     width: 580px;
     height: 320px;
+    border-radius: 15px;
   }
   
   .card-text {
